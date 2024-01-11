@@ -11,7 +11,7 @@ func getPort() string {
 	port := os.Getenv("PORT")
 	// Set a default port if there is nothing in the environment
 	if port == "" {
-		port = "3000"
+		port = "8080"
 	}
 	return ":" + port
 }
@@ -28,5 +28,4 @@ func main() {
 
 	app.Listen(getPort())
 
-	// Listen on PORT 3000
 }
