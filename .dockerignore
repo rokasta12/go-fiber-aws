@@ -1,0 +1,9 @@
+./infra
+.env
+# Ignore infra directory
+infra/
+
+# Ignore .env file
+.env
+
+
